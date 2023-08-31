@@ -1,0 +1,135 @@
+
+
+h1 {
+    margin: 50px auto 0 auto; 
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 5.62rem;
+    line-height:1 ;
+}
+
+h1:hover{
+    transform: scale(1.1);
+}
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #66BFBF;
+}
+
+a {
+    color: #065658;
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    color: black;
+}
+
+hr {
+   border: dotted grey 5px;
+   border-bottom: none;
+   margin:100px auto ;
+   width: 5%;
+    
+}
+
+.top_container {
+   background-color: #e4f9f5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;;
+}
+
+
+.bottomCloud {
+    position: absolute;
+    left:400px ;
+    bottom:300px;
+}
+.topCloud {
+    position: absolute;
+    top: 40px;
+    right: 400px;
+}
+.middle_container {
+   margin-bottom: 100px;
+   
+}
+.Profile-pic {
+    width:25%;
+}
+.barbell-img {
+    width:25%;
+    float: left;
+    margin-right:30px;
+}
+.software-development-img{
+    width: 25%;
+    float: right;
+    margin-left:30px;
+}
+
+/* .gym-description{
+    clear: left;
+}
+.programming-description {
+    clear:right;
+} */
+
+
+.skill-row {
+    width:50%;
+    margin: 100px auto 100px auto ;
+    text-align: left;
+    line-height: 2;
+}
+
+.button {
+  padding: 10px 50px;
+  margin:30px 0;
+  border:none;
+  border-radius: 10px;
+  background-color:#66BFBF;
+}
+.button:hover{
+    transform: scale(1.1);
+}
+.button1 {
+    color: antiquewhite;
+    text-decoration: none;
+}
+.last_container{
+    background-color:#66BFBF;
+    margin: 0px;
+    padding: 30px;
+           
+}
+.last-p {
+    margin:0;
+    color:white ;
+}
+.footer-link {
+    text-decoration: none;
+    line-height: 5;
+    padding: 30px;
+   
+}
+
+.footer-link>i:hover{
+color:aliceblue;
+
+}
+
